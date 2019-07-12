@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD19DB9722D8637B001B53E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19DB9622D8637B001B53E5 /* AppDelegate.m */; };
+		CD19DB9A22D8637B001B53E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19DB9922D8637B001B53E5 /* ViewController.m */; };
+		CD19DB9D22D8637B001B53E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD19DB9B22D8637B001B53E5 /* Main.storyboard */; };
+		CD19DB9F22D8637D001B53E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD19DB9E22D8637D001B53E5 /* Assets.xcassets */; };
+		CD19DBA222D8637D001B53E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD19DBA022D8637D001B53E5 /* LaunchScreen.storyboard */; };
+		CD19DBA522D8637D001B53E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19DBA422D8637D001B53E5 /* main.m */; };
+		CD19DBAF22D8637E001B53E5 /* KVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19DBAE22D8637E001B53E5 /* KVODemoTests.m */; };
+		CD19DBBA22D8637E001B53E5 /* KVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19DBB922D8637E001B53E5 /* KVODemoUITests.m */; };
+		CD19DBC922D863C4001B53E5 /* NSObject+JayKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19DBC822D863C4001B53E5 /* NSObject+JayKVO.m */; };
+		CD19DBCC22D86416001B53E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19DBCB22D86416001B53E5 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD19DBAB22D8637E001B53E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD19DB8A22D8637B001B53E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD19DB9122D8637B001B53E5;
+			remoteInfo = KVODemo;
+		};
+		CD19DBB622D8637E001B53E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD19DB8A22D8637B001B53E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD19DB9122D8637B001B53E5;
+			remoteInfo = KVODemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD19DB9222D8637B001B53E5 /* KVODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD19DB9522D8637B001B53E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD19DB9622D8637B001B53E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD19DB9822D8637B001B53E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD19DB9922D8637B001B53E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD19DB9C22D8637B001B53E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD19DB9E22D8637D001B53E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD19DBA122D8637D001B53E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD19DBA322D8637D001B53E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD19DBA422D8637D001B53E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD19DBAA22D8637E001B53E5 /* KVODemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD19DBAE22D8637E001B53E5 /* KVODemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoTests.m; sourceTree = "<group>"; };
+		CD19DBB022D8637E001B53E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD19DBB522D8637E001B53E5 /* KVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD19DBB922D8637E001B53E5 /* KVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoUITests.m; sourceTree = "<group>"; };
+		CD19DBBB22D8637E001B53E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD19DBC722D863C4001B53E5 /* NSObject+JayKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JayKVO.h"; sourceTree = "<group>"; };
+		CD19DBC822D863C4001B53E5 /* NSObject+JayKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JayKVO.m"; sourceTree = "<group>"; };
+		CD19DBCA22D86416001B53E5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CD19DBCB22D86416001B53E5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD19DB8F22D8637B001B53E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19DBA722D8637E001B53E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19DBB222D8637E001B53E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD19DB8922D8637B001B53E5 = {
+			isa = PBXGroup;
+			children = (
+				CD19DB9422D8637B001B53E5 /* KVODemo */,
+				CD19DBAD22D8637E001B53E5 /* KVODemoTests */,
+				CD19DBB822D8637E001B53E5 /* KVODemoUITests */,
+				CD19DB9322D8637B001B53E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD19DB9322D8637B001B53E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD19DB9222D8637B001B53E5 /* KVODemo.app */,
+				CD19DBAA22D8637E001B53E5 /* KVODemoTests.xctest */,
+				CD19DBB522D8637E001B53E5 /* KVODemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD19DB9422D8637B001B53E5 /* KVODemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD19DB9522D8637B001B53E5 /* AppDelegate.h */,
+				CD19DB9622D8637B001B53E5 /* AppDelegate.m */,
+				CD19DB9822D8637B001B53E5 /* ViewController.h */,
+				CD19DB9922D8637B001B53E5 /* ViewController.m */,
+				CD19DBCA22D86416001B53E5 /* Person.h */,
+				CD19DBCB22D86416001B53E5 /* Person.m */,
+				CD19DBC722D863C4001B53E5 /* NSObject+JayKVO.h */,
+				CD19DBC822D863C4001B53E5 /* NSObject+JayKVO.m */,
+				CD19DB9B22D8637B001B53E5 /* Main.storyboard */,
+				CD19DB9E22D8637D001B53E5 /* Assets.xcassets */,
+				CD19DBA022D8637D001B53E5 /* LaunchScreen.storyboard */,
+				CD19DBA322D8637D001B53E5 /* Info.plist */,
+				CD19DBA422D8637D001B53E5 /* main.m */,
+			);
+			path = KVODemo;
+			sourceTree = "<group>";
+		};
+		CD19DBAD22D8637E001B53E5 /* KVODemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD19DBAE22D8637E001B53E5 /* KVODemoTests.m */,
+				CD19DBB022D8637E001B53E5 /* Info.plist */,
+			);
+			path = KVODemoTests;
+			sourceTree = "<group>";
+		};
+		CD19DBB822D8637E001B53E5 /* KVODemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD19DBB922D8637E001B53E5 /* KVODemoUITests.m */,
+				CD19DBBB22D8637E001B53E5 /* Info.plist */,
+			);
+			path = KVODemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD19DB9122D8637B001B53E5 /* KVODemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD19DBBE22D8637E001B53E5 /* Build configuration list for PBXNativeTarget "KVODemo" */;
+			buildPhases = (
+				CD19DB8E22D8637B001B53E5 /* Sources */,
+				CD19DB8F22D8637B001B53E5 /* Frameworks */,
+				CD19DB9022D8637B001B53E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVODemo;
+			productName = KVODemo;
+			productReference = CD19DB9222D8637B001B53E5 /* KVODemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD19DBA922D8637E001B53E5 /* KVODemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD19DBC122D8637E001B53E5 /* Build configuration list for PBXNativeTarget "KVODemoTests" */;
+			buildPhases = (
+				CD19DBA622D8637E001B53E5 /* Sources */,
+				CD19DBA722D8637E001B53E5 /* Frameworks */,
+				CD19DBA822D8637E001B53E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD19DBAC22D8637E001B53E5 /* PBXTargetDependency */,
+			);
+			name = KVODemoTests;
+			productName = KVODemoTests;
+			productReference = CD19DBAA22D8637E001B53E5 /* KVODemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD19DBB422D8637E001B53E5 /* KVODemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD19DBC422D8637E001B53E5 /* Build configuration list for PBXNativeTarget "KVODemoUITests" */;
+			buildPhases = (
+				CD19DBB122D8637E001B53E5 /* Sources */,
+				CD19DBB222D8637E001B53E5 /* Frameworks */,
+				CD19DBB322D8637E001B53E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD19DBB722D8637E001B53E5 /* PBXTargetDependency */,
+			);
+			name = KVODemoUITests;
+			productName = KVODemoUITests;
+			productReference = CD19DBB522D8637E001B53E5 /* KVODemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD19DB8A22D8637B001B53E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qinjiandong;
+				TargetAttributes = {
+					CD19DB9122D8637B001B53E5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CD19DBA922D8637E001B53E5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD19DB9122D8637B001B53E5;
+					};
+					CD19DBB422D8637E001B53E5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD19DB9122D8637B001B53E5;
+					};
+				};
+			};
+			buildConfigurationList = CD19DB8D22D8637B001B53E5 /* Build configuration list for PBXProject "KVODemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD19DB8922D8637B001B53E5;
+			productRefGroup = CD19DB9322D8637B001B53E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD19DB9122D8637B001B53E5 /* KVODemo */,
+				CD19DBA922D8637E001B53E5 /* KVODemoTests */,
+				CD19DBB422D8637E001B53E5 /* KVODemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD19DB9022D8637B001B53E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD19DBA222D8637D001B53E5 /* LaunchScreen.storyboard in Resources */,
+				CD19DB9F22D8637D001B53E5 /* Assets.xcassets in Resources */,
+				CD19DB9D22D8637B001B53E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19DBA822D8637E001B53E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19DBB322D8637E001B53E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD19DB8E22D8637B001B53E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD19DB9A22D8637B001B53E5 /* ViewController.m in Sources */,
+				CD19DBA522D8637D001B53E5 /* main.m in Sources */,
+				CD19DBCC22D86416001B53E5 /* Person.m in Sources */,
+				CD19DB9722D8637B001B53E5 /* AppDelegate.m in Sources */,
+				CD19DBC922D863C4001B53E5 /* NSObject+JayKVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19DBA622D8637E001B53E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD19DBAF22D8637E001B53E5 /* KVODemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19DBB122D8637E001B53E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD19DBBA22D8637E001B53E5 /* KVODemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD19DBAC22D8637E001B53E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD19DB9122D8637B001B53E5 /* KVODemo */;
+			targetProxy = CD19DBAB22D8637E001B53E5 /* PBXContainerItemProxy */;
+		};
+		CD19DBB722D8637E001B53E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD19DB9122D8637B001B53E5 /* KVODemo */;
+			targetProxy = CD19DBB622D8637E001B53E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD19DB9B22D8637B001B53E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD19DB9C22D8637B001B53E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD19DBA022D8637D001B53E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD19DBA122D8637D001B53E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD19DBBC22D8637E001B53E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD19DBBD22D8637E001B53E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD19DBBF22D8637E001B53E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T486YZ7XQ;
+				INFOPLIST_FILE = KVODemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jaydon.KVODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD19DBC022D8637E001B53E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T486YZ7XQ;
+				INFOPLIST_FILE = KVODemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jaydon.KVODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD19DBC222D8637E001B53E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T486YZ7XQ;
+				INFOPLIST_FILE = KVODemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jaydon.KVODemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVODemo.app/KVODemo";
+			};
+			name = Debug;
+		};
+		CD19DBC322D8637E001B53E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T486YZ7XQ;
+				INFOPLIST_FILE = KVODemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jaydon.KVODemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVODemo.app/KVODemo";
+			};
+			name = Release;
+		};
+		CD19DBC522D8637E001B53E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T486YZ7XQ;
+				INFOPLIST_FILE = KVODemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jaydon.KVODemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KVODemo;
+			};
+			name = Debug;
+		};
+		CD19DBC622D8637E001B53E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T486YZ7XQ;
+				INFOPLIST_FILE = KVODemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jaydon.KVODemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KVODemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD19DB8D22D8637B001B53E5 /* Build configuration list for PBXProject "KVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD19DBBC22D8637E001B53E5 /* Debug */,
+				CD19DBBD22D8637E001B53E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD19DBBE22D8637E001B53E5 /* Build configuration list for PBXNativeTarget "KVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD19DBBF22D8637E001B53E5 /* Debug */,
+				CD19DBC022D8637E001B53E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD19DBC122D8637E001B53E5 /* Build configuration list for PBXNativeTarget "KVODemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD19DBC222D8637E001B53E5 /* Debug */,
+				CD19DBC322D8637E001B53E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD19DBC422D8637E001B53E5 /* Build configuration list for PBXNativeTarget "KVODemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD19DBC522D8637E001B53E5 /* Debug */,
+				CD19DBC622D8637E001B53E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD19DB8A22D8637B001B53E5 /* Project object */;
+}
